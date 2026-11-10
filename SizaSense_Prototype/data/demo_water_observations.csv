@@ -1,0 +1,4 @@
+water_point,area,reported_date,reported_concern,verification_status,source
+Demo Water Point D,Amathole demo area,2026-10-28,Intermittent supply,Community report,Illustrative report
+Demo Water Point D,Amathole demo area,2026-10-30,Turbidity concern,Not laboratory verified,Illustrative report
+Demo Water Point G,OR Tambo demo area,2026-11-02,Water discolouration,Partner sample pending,Illustrative workflow

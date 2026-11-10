@@ -1,0 +1,7 @@
+site_name,service_type,area,latitude,longitude,flood_exposure,heat_exposure,water_stress,service_criticality
+Demo Maternal Clinic A,Primary health facility,OR Tambo demo area,-31.588,28.774,82,58,72,95
+Demo Community Clinic B,Primary health facility,OR Tambo demo area,-31.455,28.612,48,66,54,90
+Demo School C,School,Amathole demo area,-32.820,27.430,35,74,40,65
+Demo Water Point D,Community water point,Amathole demo area,-32.775,27.510,69,51,88,80
+Demo Maternal Clinic E,Primary health facility,Chris Hani demo area,-31.900,26.880,22,42,36,95
+Demo Community Clinic F,Primary health facility,Chris Hani demo area,-31.720,26.990,56,80,61,90
