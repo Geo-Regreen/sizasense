@@ -96,7 +96,7 @@ st.markdown("""
     <p class="hero-desc">Open-source Digital Public Good decision support combining Earth Observation (EO) environmental exposure indices, community WASH signals, and maternal healthcare accessibility monitoring.</p>
     <div class="dpg-badge">UNICEF Digital Public Goods Framework Compliant · MIT Licensed</div>
 </div>
-""", unsafe_unsafe_html=True if hasattr(st, "unsafe_unsafe_html") else True)
+""", unsafe_allow_html=True if hasattr(st, "unsafe_unsafe_html") else True)
 
 # Data Loader with Automated Synthetic Fallbacks
 @st.cache_data
