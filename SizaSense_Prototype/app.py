@@ -181,7 +181,7 @@ with tab_overview:
         avg_lon = filtered_sites["longitude"].mean() if not filtered_sites.empty else 27.85
         
         # Open-access map tiles (CartoDB Positron with OpenStreetMap fallback - NO API KEY NEEDED)
-        m = folium.Map(location=[avg_lat, avg_lon], zoom_start=10, tiles="CartoDB positron")
+        m = folium.Map(location=[-32.9365, 27.9116], zoom_start=12, tiles="OpenStreetMap")
         
         color_map = {"Low": "#28a745", "Moderate": "#ffc107", "High": "#fd7e14", "Critical": "#dc3545"}
         
@@ -276,7 +276,6 @@ with tab_lens:
             x="reported_date",
             y="reported_concern",
             color="verification_status",
-            size="reported_concern",
             hover_data=["water_point", "area"],
             title="WASH Concern Timeline & Verification Status",
             color_discrete_sequence=px.colors.qualitative.Bold
